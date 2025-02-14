@@ -1,0 +1,9 @@
+ssh x@servera.example.com
+
+lastlog -u x
+
+geten passwd x
+
+chsh -s /bin/bash
+
+ssh x@server.example.com
